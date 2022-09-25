@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Анна Москвина](https://up.htmlacademy.ru/htmlcss/35/user/2200407).
-* Наставник: `Неизвестно`.
+* Наставник: [Алена Сафьянникова](https://htmlacademy.ru/profile/safyann).
 
 ---
 
