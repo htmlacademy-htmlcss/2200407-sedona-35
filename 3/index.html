@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title>
+    <base href="https://htmlacademy-htmlcss.github.io/2200407-sedona-35/3/">
+</head>
+
+  <body class="page__body">
+    <header class="page__header">
+      <nav class="navigation">
+        <a class="navigation__logo-link">
+          <img class="navigation__logo-img" src="images/logo.svg" width="138" height="64" alt="Логотип сайта «Sedona»">
+        </a>
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link navigation__link--active" href="#">Главная</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">О Седоне</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="catalog.html">Гостиницы</a>
+          </li>
+        </ul>
+
+        <ul class="navigation__user-menu user-menu">
+          <li class="user-menu__item">
+            <a class="user-menu__link" href="#">
+              <span class="visually__hidden">Поиск</span>
+            </a>
+          </li>
+          <li class="user-menu__item">
+            <a class="user-menu__link" href="#">
+              <span class="visually__hidden">Корзина</span>
+            </a>
+          </li>
+          <li class="user-menu__item">
+            <a class="user-menu__link-button button" href="#">Хочу сюда</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main__page">
+      <section class="promo">
+        <h1 class="visually__hidden">Сайт города Седона</h1>
+        <div class="promo__content">
+          <img class="promo__img" src="images/mountains-sedona.jpg" width="1200" height="485" alt="Горы Cедоны">
+          <img class="promo__label" src="images/welcome.svg" width="458" height="352" alt="Приглашение для посещения города Седона">
+        </div>
+      </section>
+
+      <section class="promo__inform">
+        <p class="promo__inform-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+        <p class="promo__inform-descr">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      </section>
+
+      <section class="advantages">
+        <h2 class="visually__hidden">Причины почему стоит посетить город Седона</h2>
+
+        <div class="advantages__row">
+          <div class="advantages__inform">
+            <h3 class="advantages__title">Настоящий городок</h3>
+            <p class="advantages__descr">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          </div>
+          <img class="advantages__img" src="images/sedona-town.jpg" width="800" height="384" alt="Настоящий городок Cедона">
+        </div>
+
+        <ul class="advantages__list">
+          <li class="advantages__item advantages__item--lighter">
+            <h2 class="advantages__item-title">Небольшая площадь</h2>
+            <p class="advantages__item-descr">Все достопримечательности находятся очень близко</p>
+          </li>
+          <li class="advantages__item">
+            <h2 class="advantages__item-title">Красивая дорога</h2>
+            <p class="advantages__item-descr">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+          </li>
+          <li class="advantages__item advantages__item--lighter">
+            <h2 class="advantages__item-title">Мало туристов</h2>
+            <p class="advantages__item-descr">Большинство едет в Гранд Каньон и толпится там</p>
+          </li>
+        </ul>
+
+        <div class="advantages__row">
+          <img class="advantages__img" src="images/devils-bridge.jpg" width="800" height="384" alt="Мост дьявола в седоне">
+          <div class="advantages__inform">
+            <h3 class="advantages__title">Там есть мост дьявола</h3>
+            <p class="advantages__descr">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+          </div>
+        </div>
+
+        <ul class="advantages__list">
+          <li class="advantages__item advantages__item-housing">
+            <h2 class="advantages__item-title">Жилье</h2>
+            <p class="advantages__item-descr">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+          </li>
+          <li class="advantages__item advantages__item-food advantages__item--lighter">
+            <h2 class="advantages__item-title">Еда</h2>
+            <p class="advantages__item-descr">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+          </li>
+          <li class="advantages__item advantages__item-souvenirs">
+            <h2 class="advantages__item-title">Сувениры</h2>
+            <p class="advantages__item-descr">Не только китайского, но и настоящего местного производства!</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="interests">
+        <b class="interests__title">Заинтересовались?</b>
+        <p class="interests__descr">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в
+          Седоне</p>
+        <a class="interests__link-button button" href="#">Поиск гостиницы в Седоне</a>
+      </section>
+
+      <section class="newsletter">
+        <h2 class="newsletter__title">Подпишитесь на рассылку</h2>
+        <p class="newsletter__descr">Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <form class="newsletter__form" action="https://echo.htmlacademy.ru/" method="post">
+          <input class="newsletter__email" placeholder="Ваш e-email" type="email" name="newsletter-email" required>
+          <button class="button newsletter__button" type="submit">Подписаться</button>
+        </form>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <section class="footer__social">
+        <h2 lass="visually__hidden">Ссылки на социальные сети</h2>
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="button" href="#">
+              <span class="visually__hidden">ВКонтакте</span>
+              <svg width="48" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M35.1 14c.2-.6 0-1-.8-1h-2.6c-.7 0-1 .3-1.1.7 0 0-1.4 3.2-3.3 5.3-.6.6-.9.8-1.2.8-.2 0-.4-.2-.4-.7v-5.2c0-.6-.2-.9-.8-.9h-4c-.5 0-.8.3-.8.6 0 .6 1 .8 1 2.5V20c0 .8 0 1-.4 1-.9 0-3-3.2-4.3-6.9-.3-.7-.5-1-1.2-1h-2.6c-.8 0-1 .3-1 .7 0 .7 1 4.1 4.2 8.6 2.2 3 5.2 4.7 8 4.7 1.7 0 1.9-.4 1.9-1v-2.3c0-.8.2-.9.7-.9.4 0 1 .2 2.6 1.7 1.8 1.7 2 2.5 3 2.5h2.7c.7 0 1.1-.4 1-1.1-.3-.7-1.2-1.8-2.3-3L31.6 21c-.4-.5-.3-.7 0-1.1 0 0 3.2-4.4 3.5-6Z"
+                  fill="#83B3D3" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="button" href="#">
+              <span class="visually__hidden">Телеграм</span>
+              <svg width="48" height="40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m31.8 12.1-16 6.1c-1 .5-1 1-.2 1.4l4.1 1.2 9.5-6c.5-.2.9 0 .5.2l-7.6 7-.3 4.2c.4 0 .6-.2.8-.4l2-2 4.1 3c.8.5 1.3.3 1.5-.6L33 13.4c.3-1.1-.4-1.6-1.1-1.3Z"
+                  fill="#83B3D3" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer__social-item">
+            <a class="button" href="#">
+              <span class="visually__hidden">Ютюб</span>
+              <svg width="48" height="40" viewBox="0 0 48 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M31.9402 11.5H16.5074C14.6467 11.5 13.3333 13.0938 13.3333 14.9V24.9937C13.3333 26.9062 14.6467 28.5 16.5074 28.5H32.1591C33.8009 28.5 35.3333 26.9062 35.3333 25.1V14.9C35.1143 13.0938 33.8009 11.5 31.9402 11.5ZM20.9949 24.0375V15.9625L28.3283 20L20.9949 24.0375Z"
+                  fill="#83B3D3" />
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="footer__contacts">
+        <h2 class="visually__hidden">Контакты</h2>
+        <a class="footer__contacts-phone" href="tel:+74956660166">+7(495)666-01-66</a>
+      </section>
+
+      <div class="footer__copyright">
+        <h2 class="visually__hidden">HTML academy</h2>
+        <a class="footer__copyright-link" href="#"><img class="footer__copyright-logo" src="logo.svg" alt="html academy логотип">
+        </a>
+      </div>
+    </footer>
+  </body>
+
+</html>
