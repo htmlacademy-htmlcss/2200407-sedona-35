@@ -9,7 +9,7 @@
 
   <body class="page__body">
     <header class="page__header">
-      <nav class="navigation">
+      <nav class="navigation container">
         <a class="navigation__logo-link">
           <img class="navigation__logo-img" src="images/logo.svg" width="138" height="64" alt="Логотип сайта «Sedona»">
         </a>
@@ -104,15 +104,15 @@
                   </label>
                 </li>
                 <li class="filter_item">
-                  <label class="filter__title>
-                    <input class=" filter__radio" type="radio" name="title_housing" value="apartments">
+                  <label class="filter__title">
+                    <input class="filter__radio" type="radio" name="title_housing" value="apartments">
                     Апартаменты
                   </label>
                 </li>
               </ul>
             </fieldset>
 
-            <fieldset class="filter__group">
+            <fieldset class="filter__group filter__group--price">
               <legend class="filter__title">Стоимость, ₽:</legend>
 
               <div class="filter__price">
@@ -139,24 +139,26 @@
         </section>
       </header>
 
-      <section class="catalog">
-        <h2 class="catalog__title">Найдено гостинец: 38</h2>
+      <section class="catalog container">
+        <div class="catalog__panel">
+          <h2 class="catalog__title title">Найдено гостинец: 38</h2>
 
-        <select class="catalog__sort" aria-label="Сортировка">
-          <option value="cheap">Сначало дешевые</option>
-          <option value="expensive">Сначало дорогие</option>
-        </select>
+          <select class="catalog__sort" aria-label="Сортировка">
+            <option value="cheap">Сначало дешевые</option>
+            <option value="expensive">Сначало дорогие</option>
+          </select>
 
-        <div class="catalog__view">
-          <a class="button button__view-tiles" href="#">
-            <span class="visually-hidden">Показать плиткой</span>
-          </a>
-          <a class="button button__view-card" href="#">
-            <span class="visually-hidden">Показать карточкой</span>
-          </a>
-          <a class="button button__view-list" href="#">
-            <span class="visually-hidden">Показать списком</span>
-          </a>
+          <div class="catalog__view">
+            <a class="button button__view-tiles" href="#">
+              <span class="visually-hidden">Показать плиткой</span>
+            </a>
+            <a class="button button__view-card" href="#">
+              <span class="visually-hidden">Показать карточкой</span>
+            </a>
+            <a class="button button__view-list" href="#">
+              <span class="visually-hidden">Показать списком</span>
+            </a>
+          </div>
         </div>
 
         <ul class="catalog__list">
@@ -274,7 +276,8 @@
         </ul>
       </section>
 
-      <ul class="pagination">
+
+      <ul class="pagination container">
         <li class="pagination__item">
           <a class="pagination__link pagination__link--current">1</a>
         </li>
@@ -309,7 +312,7 @@
 
     <footer class="footer">
       <section class="footer__social">
-        <h2 lass="visually-hidden">Ссылки на социальные сети</h2>
+        <h2 class="visually-hidden">Ссылки на социальные сети</h2>
         <ul class="footer__social-list">
           <li class="footer__social-item">
             <a class="footer__social-button" href="#">
