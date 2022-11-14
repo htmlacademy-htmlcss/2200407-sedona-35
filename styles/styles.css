@@ -20,6 +20,7 @@ html {
 
 body {
   width: 1200px;
+  padding: 0 40px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -40,6 +41,11 @@ body {
   padding: 0;
   overflow: hidden;
   border: 0;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .container {
@@ -379,6 +385,7 @@ body {
 /*newsletter*/
 
 .newsletter {
+  background-color: #82B3D3;
   background-image: url("../images/subscribe.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -451,6 +458,7 @@ body {
 }
 
 .newsletter-catalog {
+  background-color: inherit;
   background-image: none;
   color: #000000;
 }
@@ -493,6 +501,7 @@ body {
 }
 
 .inner__header {
+  background-color: #3F5E72;
   background-image: url("../images/filter.jpg");
   background-repeat: no-repeat;
   color: #FFFFFF;
