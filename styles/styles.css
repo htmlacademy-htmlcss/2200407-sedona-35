@@ -19,7 +19,6 @@ html {
 }
 
 body {
-  min-width: 1280px;
   display: flex;
   flex-direction: column;
   margin: 0;
@@ -218,7 +217,7 @@ img {
   position: relative;
   background-color: #81B3D3;
   background-image: url("../images/mountains-sedona.jpg");
-  background-size: 1200px 485px;
+  background-size: cover;
   background-repeat: no-repeat;
   padding-top: 51px;
   padding-bottom: 82px;
@@ -252,7 +251,7 @@ img {
   margin: 0 auto 25px auto;
 }
 
-.promo__inform-descr {
+.promo__inform-description {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
@@ -302,7 +301,7 @@ img {
   margin-bottom: 30px;
 }
 
-.advantages__descr {
+.advantages__description {
   width: 230px;
   margin: 0 auto;
   order: 3;
@@ -363,10 +362,9 @@ img {
   height: 76px;
   content: "";
   margin-bottom: 28px;
-
 }
 
-.advantages__item-descr {
+.advantages__item-description {
   width: 230px;
   margin: 0 auto;
   color: #333333;
@@ -388,7 +386,7 @@ img {
   margin-bottom: 20px;
 }
 
-.interests__descr {
+.interests__description {
   width: 592px;
   margin: 0 auto;
   font-size: 22px;
@@ -415,7 +413,7 @@ img {
 .newsletter {
   background-color: #82B3D3;
   background-image: url("../images/subscribe.jpg");
-  background-size: 100% auto;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   color: #FFFFFF;
@@ -571,7 +569,7 @@ img {
   box-sizing: border-box;
   background-color: #3F5E72;
   background-image: url("../images/filter.jpg");
-  background-size: 1200px 412px;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #FFFFFF;
   min-height: 412px;
